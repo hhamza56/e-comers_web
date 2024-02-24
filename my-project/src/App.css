@@ -1,0 +1,21 @@
+.venus-sticker {
+  display: inline-block;
+  perspective: 500px;
+}
+
+.venus-sticker .letter {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff2d20;
+  animation: spin 5s linear infinite alternate;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
